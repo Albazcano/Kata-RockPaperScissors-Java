@@ -1,6 +1,7 @@
 package com.factoriaf5.rps.application;
 
 public class Game {
+    
     public String play(String player1, String player2) {
        
         String winner = this.checkWinner(player1, player2);
