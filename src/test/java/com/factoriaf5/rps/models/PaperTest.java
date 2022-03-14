@@ -4,15 +4,15 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class RockTest {
+public class PaperTest {
     
     @Test
-    public void isRock() {
-        Rock obj = new Rock();
+    public void isPaper() {
+        Paper obj = new Paper();
 
         String result = obj.getName();
 
-        assertEquals("Rock", result);
+        assertEquals("Paper", result);
     }
 
 }
