@@ -3,6 +3,7 @@ package com.factoriaf5.rps.domain.models;
 import com.factoriaf5.rps.domain.contracts.InterfaceObject;
 
 public class Rock implements InterfaceObject {
+    
     String name = "Rock";
 
     public Rock(){

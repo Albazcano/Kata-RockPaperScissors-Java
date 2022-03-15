@@ -3,6 +3,7 @@ package com.factoriaf5.rps.domain.models;
 import com.factoriaf5.rps.domain.contracts.InterfaceObject;
 
 public class Paper implements InterfaceObject {
+    
     String name = "Paper";
 
     public Paper(){
