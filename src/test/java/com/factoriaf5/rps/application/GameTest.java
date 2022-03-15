@@ -1,9 +1,10 @@
 package com.factoriaf5.rps.application;
 
 import static org.junit.Assert.assertEquals;
-import com.factoriaf5.rps.models.Rock;
-import com.factoriaf5.rps.models.Scissors;
-import com.factoriaf5.rps.models.Paper;
+
+import com.factoriaf5.rps.domain.models.Paper;
+import com.factoriaf5.rps.domain.models.Rock;
+import com.factoriaf5.rps.domain.models.Scissors;
 
 import org.junit.Test;
 
